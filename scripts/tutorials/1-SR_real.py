@@ -121,7 +121,8 @@ brain_generator = BrainGenerator(labels_dir=labels_folder,
                                  data_res=data_res,
                                  thickness=thickness,
                                  downsample=downsample,
-                                 build_reliability_maps=build_reliability_maps)
+                                 build_reliability_maps=build_reliability_maps,
+                                 prior_distributions=None)
 
 # create result dir
 utils.mkdir(result_dir)
