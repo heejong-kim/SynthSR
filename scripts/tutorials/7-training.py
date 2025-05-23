@@ -37,7 +37,7 @@ activation = 'elu'  # activation function
 
 # we now set the learning parameters
 learning_rate = 1e-4  # learning rate to apply
-lr_decay = 0   # here we do not use a decay. I fyou do, remember that it will be applied at each step !
+lr_decay = 0   # here we do not use a decay. If you do, remember that it will be applied at each step !
 # An epoch is defined by a given number of steps (rather than the fact to have gone through all the training examples).
 # This choice is motivated by the fact that we typically have a small amount of data in medical imaging analysis.
 # At each step, we randomly select a training label map, generate the training data, run the input channels through the
